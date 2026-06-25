@@ -1,0 +1,407 @@
+---
+title: ""
+---
+
+::: {#home .hero}
+
+<video id="hero-video" class="hero-video" autoplay muted loop playsinline
+       poster="favicon.svg" preload="metadata"
+       aria-hidden="true"></video>
+
+::: {.hero-overlay}
+:::
+
+::: {.hero-content}
+::: {.hero-badge .fade-in-up .delay-1}
+Based in Argentina - building data products that run
+:::
+
+# Progress <span class="accent">in</span> Motion {.hero-title .fade-in-up .delay-2}
+
+::: {.hero-actions .fade-in-up .delay-3}
+[See my work](#work){.btn .btn-primary .glow-btn}
+[Let's talk](#contact){.btn .btn-secondary .glass-btn}
+:::
+:::
+
+:::
+
+::: {#about}
+
+::: {.about-intro}
+
+::: {.glass-panel .profile-card .float-bob .fade-in}
+
+::: {.profile-img-container}
+::: {.profile-initials}
+MW
+:::
+:::
+
+## Maximo Williner {.profile-name}
+
+::: {.title-badge}
+Data Analyst - BI - ETL
+:::
+
+::: {.card-stats}
+::: {.stat}
+[3+]{.stat-val}
+[Years Exp.]{.stat-label}
+:::
+::: {.stat}
+[20+]{.stat-val}
+[Dashboards]{.stat-label}
+:::
+:::
+
+::: {.specialties}
+[Python]{.badge} [Tableau]{.badge} [SQL]{.badge} [Power BI]{.badge}
+:::
+
+:::
+
+::: {.glass-panel .text-card .fade-up}
+I turn messy data into decisions - automated pipelines, elegant BI dashboards, and forecasts that hold up in production. Built for real budgets and real teams.
+
+Most of my work sits where analytics meets engineering: dbt models, Airflow dags, BI tooling, and the SQL glue in between. I've worked remote across timezones and I keep documentation honest.
+:::
+
+:::
+
+::: {.section-header}
+::: {.section-badge .fade-up}
+about me
+:::
+
+## Who I Am {.section-title .fade-up .stagger-1}
+:::
+
+::: {.about-grid}
+
+::: {.glass-panel .stats-card .fade-in}
+::: {.stat-grid}
+
+::: {.stat-box}
+::: {.neon-icon}
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+:::
+
+[Python + SQL]{.stat-val .gradient-text}
+
+[Core stack]{.stat-label}
+:::
+
+::: {.stat-box}
+::: {.neon-icon}
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+:::
+
+[Tableau / Power BI]{.stat-val .gradient-text}
+
+[BI delivery]{.stat-label}
+:::
+
+::: {.stat-box}
+::: {.neon-icon}
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+:::
+
+[Airflow + dbt]{.stat-val .gradient-text}
+
+[ETL automation]{.stat-label}
+:::
+
+:::
+:::
+
+:::
+
+## What I Work With {.section-title .fade-up}
+
+::: {.skills-container}
+
+::: {.skill-category .glass-panel .fade-in}
+### Languages
+
+::: {.skill-chips}
+[Python]{.chip} [SQL]{.chip} [PostgreSQL]{.chip} [BigQuery]{.chip} [Snowflake]{.chip} [R]{.chip}
+:::
+:::
+
+::: {.skill-category .glass-panel .fade-in}
+### Visualization / BI
+
+::: {.skill-chips}
+[Tableau]{.chip} [Power BI]{.chip} [Looker]{.chip} [Metabase]{.chip} [Plotly]{.chip} [Seaborn]{.chip}
+:::
+:::
+
+::: {.skill-category .glass-panel .fade-in}
+### Infrastructure / ETL
+
+::: {.skill-chips}
+[Airflow]{.chip} [dbt]{.chip} [Spark]{.chip} [DuckDB]{.chip} [Docker]{.chip} [GCP]{.chip}
+:::
+:::
+
+::: {.skill-category .glass-panel .fade-in}
+### Methods
+
+::: {.skill-chips}
+[Cohort analysis]{.chip} [Forecasting]{.chip} [A/B testing]{.chip} [Attribution]{.chip} [Data modeling]{.chip}
+:::
+:::
+
+:::
+
+:::
+
+::: {#work}
+
+::: {.section-header}
+::: {.section-badge .fade-up}
+selected work
+:::
+
+## Projects {.section-title .fade-up .stagger-1}
+:::
+
+::: {.projects-grid .fade-in}
+
+::: {.project-card .glass-panel}
+::: {.project-visual}
+::: {.mock-browser .v1}
+<div class="browser-dots"><span></span><span></span><span></span></div>
+::: {.mock-content}
+::: {.project-emoji}
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+:::
+:::
+:::
+:::
+::: {.project-info}
+### Sales Pulse {.accent}
+
+Interactive BI dashboard tracking revenue, churn, and cohort retention across regions.
+
+::: {.tech-stack}
+[Python]{.chip} [Tableau]{.chip} [PostgreSQL]{.chip} [dbt]{.chip}
+:::
+:::
+:::
+
+::: {.project-card .glass-panel}
+::: {.project-visual}
+::: {.mock-browser .v2}
+<div class="browser-dots"><span></span><span></span><span></span></div>
+::: {.mock-content}
+::: {.project-emoji}
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>
+:::
+:::
+:::
+:::
+::: {.project-info}
+### Pricing Intelligence {.accent}
+
+Web-scraping pipeline comparing competitor prices with ML-driven repricing suggestions.
+
+::: {.tech-stack}
+[Python]{.chip} [scikit-learn]{.chip} [BigQuery]{.chip} [Looker]{.chip}
+:::
+:::
+:::
+
+::: {.project-card .glass-panel}
+::: {.project-visual}
+::: {.mock-browser .v3}
+<div class="browser-dots"><span></span><span></span><span></span></div>
+::: {.mock-content}
+::: {.project-emoji}
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m7.5 4.27 9 5.15"/><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="M3.3 7 12 12l8.7-5"/><path d="M12 22V12"/></svg>
+:::
+:::
+:::
+:::
+::: {.project-info}
+### Inventory Forecast {.accent}
+
+Time-series forecasting (Prophet + ARIMA) for warehouse stock levels, cut overstock 23%.
+
+::: {.tech-stack}
+[Python]{.chip} [Prophet]{.chip} [Power BI]{.chip} [Snowflake]{.chip}
+:::
+:::
+:::
+
+:::
+
+::: {.section-header}
+::: {.section-badge .fade-up}
+live demo
+:::
+
+## Embedded BI {.section-title .fade-up}
+:::
+
+The Power BI dashboard below is embedded directly in this Quarto page using raw HTML.
+
+<iframe class="embed fade-in"
+  src="https://app.powerbi.com/view?r=YOUR_EMBED_TOKEN"
+  title="Inventory Forecast - Power BI"
+  loading="lazy"
+  allowfullscreen="true">
+</iframe>
+
+> Replace the `src` URL with your published Tableau or Power BI embed link.
+
+:::
+
+::: {#experience}
+
+::: {.section-header}
+::: {.section-badge .fade-up}
+track record
+:::
+
+## Experience {.section-title .fade-up .stagger-1}
+:::
+
+::: {.case-studies-list .fade-in}
+
+::: {.case-study-card .glass-panel}
+::: {.cs-meta}
+[Full-time]{.cs-tag} [Reporting]{.cs-tag}
+:::
+
+::: {.cs-content}
+### Data Analyst - [Acme Corp](https://example.com) {.accent}
+
+Jan 2023 - Present
+
+Designed executive KPI dashboards in Tableau for 30+ stakeholders. Automated reporting pipelines with Python + Airflow, cutting manual work ~15 hrs/week. Partnered with product on A/B analysis and retention modeling.
+
+::: {.cs-outcomes}
+::: {.cs-stat}
+[30+]{.cs-stat-val}
+[stakeholders]{.cs-stat-label}
+:::
+::: {.cs-stat}
+[15h]{.cs-stat-val}
+[saved weekly]{.cs-stat-label}
+:::
+::: {.cs-stat}
+[3]{.cs-stat-val}
+[cohorts modeled]{.cs-stat-label}
+:::
+:::
+
+::: {.cs-stack}
+[Tableau]{.chip} [Python]{.chip} [Airflow]{.chip} [dbt]{.chip}
+:::
+:::
+:::
+
+::: {.case-study-card .glass-panel}
+::: {.cs-meta}
+[Full-time]{.cs-tag} [Marketing]{.cs-tag}
+:::
+
+::: {.cs-content}
+### Junior Data Analyst - Beta Analytics {.accent}
+
+2021 - 2022
+
+Built ETL jobs in SQL (BigQuery) for marketing spend attribution. Created Looker dashboards tracking CAC, LTV, and payback period. Documented data models in dbt for the analytics engineering team.
+
+::: {.cs-outcomes}
+::: {.cs-stat}
+[CAC]{.cs-stat-val}
+[attribution]{.cs-stat-label}
+:::
+::: {.cs-stat}
+[LTV]{.cs-stat-val}
+[modeled]{.cs-stat-label}
+:::
+::: {.cs-stat}
+[dbt]{.cs-stat-val}
+[documented]{.cs-stat-label}
+:::
+:::
+
+::: {.cs-stack}
+[BigQuery]{.chip} [Looker]{.chip} [SQL]{.chip} [dbt]{.chip}
+:::
+:::
+:::
+
+:::
+
+## Education & Certifications {.section-title .fade-up}
+
+::: {.cert-grid .fade-in}
+
+::: {.cert-card .glass-panel}
+::: {.cert-icon}
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c0 1 2.5 2 6 2s6-1 6-2v-5"/></svg>
+:::
+
+### B.Sc. in Statistics
+
+University Name, 2017-2021
+:::
+
+::: {.cert-card .glass-panel}
+::: {.cert-icon}
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+:::
+
+### Google Data Analytics Certificate
+
+2022
+:::
+
+::: {.cert-card .glass-panel}
+::: {.cert-icon}
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+:::
+
+### Tableau Desktop Specialist
+
+2023
+:::
+
+:::
+
+:::
+
+::: {#contact .site-footer}
+
+::: {.footer-top .glass-panel .fade-in}
+
+::: {.contact-info}
+
+## Got a project? {.gradient-text}
+
+<br>
+Let's talk.
+
+Open to full-time Data Analyst / BI Engineer roles and freelance dashboard projects. Based in Argentina, working globally.
+
+:::
+
+::: {.btn-row}
+[Email me](mailto:maximowilliner35@gmail.com){.btn .btn-primary .glow-btn}
+[LinkedIn](https://www.linkedin.com/in/maximo-williner-12155a292/){.btn .btn-secondary .glass-btn}
+[GitHub](https://github.com/maxiwilliner){.btn .btn-secondary .glass-btn}
+:::
+
+:::
+
+::: {.footer-bottom}
+[Maximo Williner]{.brand}
+[Built with Quarto - (c) 2026]{.copyright}
+:::
+
+:::
