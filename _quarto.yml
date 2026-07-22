@@ -33,14 +33,12 @@ website:
       - icon: linkedin
         href: https://www.linkedin.com/in/maximo-williner-12155a292/
         aria-label: LinkedIn
-  page-footer:
-    center: "Built with Quarto - (c) 2026 Maximo Williner"
-
 format:
   html:
     theme: darkly
     css: custom.css
     toc: false
+    anchor-sections: false
     mainfont: "Inter"
     monofont: "JetBrains Mono"
     page-layout: full
@@ -64,3 +62,6 @@ format:
     include-before-body:
       text: |
         <div id="scroll-progress" aria-hidden="true"></div>
+        <button id="back-to-top" type="button" aria-label="Back to top" title="Back to top">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
+        </button>

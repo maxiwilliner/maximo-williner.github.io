@@ -34,7 +34,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -137,6 +136,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 <div id="scroll-progress" aria-hidden="true"></div>
+<button id="back-to-top" type="button" aria-label="Back to top" title="Back to top">
+  <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"></polyline></svg>
+</button>
 
 
 
@@ -149,17 +151,32 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="hero-content">
 <div class="hero-badge fade-in-up delay-1">
-<p>Based in Argentina - building data products that run</p>
+<p><span class="status-dot"></span> Based in Argentina - building data products that run</p>
 </div>
 <section id="progress-in-motion" class="level1 hero-title fade-in-up delay-2">
 <h1 class="hero-title fade-in-up delay-2">Progress <span class="accent">in</span> Motion</h1>
-<div class="hero-actions fade-in-up delay-3">
+<p><span class="hero-subtitle fade-in-up delay-3">Data Analyst · BI · ETL — turning raw data into pipelines, dashboards, and forecasts that ship.</span></p>
+<div class="hero-actions fade-in-up delay-4">
 <p><a href="#work" class="btn btn-primary glow-btn">See my work</a> <a href="#contact" class="btn btn-secondary glass-btn">Let’s talk</a></p>
 </div>
 </section>
 </div>
+<p><a href="#about" class="scroll-cue" aria-label="Scroll to about section"><span>scroll</span><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg></a></p>
+</div>
+<div class="marquee" aria-hidden="true">
+<div class="marquee-track">
+<p><span class="marquee-chunk">Python ✦ SQL ✦ Tableau ✦ Power BI ✦ dbt ✦ Airflow ✦ BigQuery ✦ Snowflake ✦ Docker ✦ GCP ✦ Looker ✦ Spark</span> <span class="marquee-chunk">Python ✦ SQL ✦ Tableau ✦ Power BI ✦ dbt ✦ Airflow ✦ BigQuery ✦ Snowflake ✦ Docker ✦ GCP ✦ Looker ✦ Spark</span></p>
+</div>
 </div>
 <div id="about">
+<div class="section-header">
+<div class="section-badge fade-up">
+<p>about me</p>
+</div>
+<section id="who-i-am" class="level2 section-title fade-up stagger-1">
+<h2 class="section-title fade-up stagger-1" data-anchor-id="who-i-am">Who I <span class="serif-accent">Am</span></h2>
+</section>
+</div>
 <div class="about-intro">
 <div class="glass-panel profile-card float-bob fade-in">
 <div class="profile-img-container">
@@ -168,16 +185,16 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <section id="maximo-williner" class="level2 profile-name">
-<h2 class="profile-name anchored" data-anchor-id="maximo-williner">Maximo Williner</h2>
+<h2 class="profile-name" data-anchor-id="maximo-williner">Maximo Williner</h2>
 <div class="title-badge">
 <p>Data Analyst - BI - ETL</p>
 </div>
 <div class="card-stats">
 <div class="stat">
-<p><span class="stat-val">3+</span> <span class="stat-label">Years Exp.</span></p>
+<p><span class="stat-val" data-count="3" data-suffix="+">3+</span> <span class="stat-label">Years Exp.</span></p>
 </div>
 <div class="stat">
-<p><span class="stat-val">20+</span> <span class="stat-label">Dashboards</span></p>
+<p><span class="stat-val" data-count="20" data-suffix="+">20+</span> <span class="stat-label">Dashboards</span></p>
 </div>
 </div>
 <div class="specialties">
@@ -189,14 +206,6 @@ ul.task-list li input[type="checkbox"] {
 <p>I turn messy data into decisions - automated pipelines, elegant BI dashboards, and forecasts that hold up in production. Built for real budgets and real teams.</p>
 <p>Most of my work sits where analytics meets engineering: dbt models, Airflow dags, BI tooling, and the SQL glue in between. I’ve worked remote across timezones and I keep documentation honest.</p>
 </div>
-</div>
-<div class="section-header">
-<div class="section-badge fade-up">
-<p>about me</p>
-</div>
-<section id="who-i-am" class="level2 section-title fade-up stagger-1">
-<h2 class="section-title fade-up stagger-1 anchored" data-anchor-id="who-i-am">Who I Am</h2>
-</section>
 </div>
 <div class="about-grid">
 <div class="glass-panel stats-card fade-in">
@@ -232,28 +241,28 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <section id="what-i-work-with" class="level2 section-title fade-up">
-<h2 class="section-title fade-up anchored" data-anchor-id="what-i-work-with">What I Work With</h2>
+<h2 class="section-title fade-up" data-anchor-id="what-i-work-with">What I <span class="serif-accent">Work</span> With</h2>
 <div class="skills-container">
 <section id="languages" class="level3 skill-category glass-panel fade-in">
-<h3 class="anchored" data-anchor-id="languages">Languages</h3>
+<h3 data-anchor-id="languages">Languages</h3>
 <div class="skill-chips">
 <p><span class="chip">Python</span> <span class="chip">SQL</span> <span class="chip">PostgreSQL</span> <span class="chip">BigQuery</span> <span class="chip">Snowflake</span> <span class="chip">R</span></p>
 </div>
 </section>
 <section id="visualization-bi" class="level3 skill-category glass-panel fade-in">
-<h3 class="anchored" data-anchor-id="visualization-bi">Visualization / BI</h3>
+<h3 data-anchor-id="visualization-bi">Visualization / BI</h3>
 <div class="skill-chips">
 <p><span class="chip">Tableau</span> <span class="chip">Power BI</span> <span class="chip">Looker</span> <span class="chip">Metabase</span> <span class="chip">Plotly</span> <span class="chip">Seaborn</span></p>
 </div>
 </section>
 <section id="infrastructure-etl" class="level3 skill-category glass-panel fade-in">
-<h3 class="anchored" data-anchor-id="infrastructure-etl">Infrastructure / ETL</h3>
+<h3 data-anchor-id="infrastructure-etl">Infrastructure / ETL</h3>
 <div class="skill-chips">
 <p><span class="chip">Airflow</span> <span class="chip">dbt</span> <span class="chip">Spark</span> <span class="chip">DuckDB</span> <span class="chip">Docker</span> <span class="chip">GCP</span></p>
 </div>
 </section>
 <section id="methods" class="level3 skill-category glass-panel fade-in">
-<h3 class="anchored" data-anchor-id="methods">Methods</h3>
+<h3 data-anchor-id="methods">Methods</h3>
 <div class="skill-chips">
 <p><span class="chip">Cohort analysis</span> <span class="chip">Forecasting</span> <span class="chip">A/B testing</span> <span class="chip">Attribution</span> <span class="chip">Data modeling</span></p>
 </div>
@@ -267,7 +276,7 @@ ul.task-list li input[type="checkbox"] {
 <p>selected work</p>
 </div>
 <section id="projects" class="level2 section-title fade-up stagger-1">
-<h2 class="section-title fade-up stagger-1 anchored" data-anchor-id="projects">Projects</h2>
+<h2 class="section-title fade-up stagger-1" data-anchor-id="projects"><span class="serif-accent">Projects</span></h2>
 </section>
 </div>
 <div class="projects-grid fade-in">
@@ -278,20 +287,19 @@ ul.task-list li input[type="checkbox"] {
 <span></span><span></span><span></span>
 </div>
 <div class="mock-content">
-<div class="project-emoji">
-<svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-<line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line>
-</svg>
+<div class="mini-chart chart-bars" aria-hidden="true">
+<span style="--h:38%"></span><span style="--h:56%"></span><span style="--h:46%"></span><span style="--h:68%"></span><span style="--h:60%"></span><span style="--h:84%"></span><span style="--h:74%"></span>
 </div>
 </div>
 </div>
 </div>
 <section id="sales-pulse" class="level3 accent project-info">
-<h3 class="accent anchored" data-anchor-id="sales-pulse">Sales Pulse</h3>
+<h3 class="accent" data-anchor-id="sales-pulse">Sales Pulse</h3>
 <p>Interactive BI dashboard tracking revenue, churn, and cohort retention across regions.</p>
 <div class="tech-stack">
 <p><span class="chip">Python</span> <span class="chip">Tableau</span> <span class="chip">PostgreSQL</span> <span class="chip">dbt</span></p>
 </div>
+<p><a class="project-link" href="https://github.com/maxiwilliner" aria-label="Sales Pulse on GitHub">GitHub <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a></p>
 </section>
 </div>
 <div class="project-card glass-panel">
@@ -301,20 +309,21 @@ ul.task-list li input[type="checkbox"] {
 <span></span><span></span><span></span>
 </div>
 <div class="mock-content">
-<div class="project-emoji">
-<svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-<polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline>
+<div class="mini-chart chart-line" aria-hidden="true">
+<svg viewbox="0 0 200 100" fill="none" aria-hidden="true">
+<polyline points="5,80 35,66 62,73 92,48 122,56 152,28 195,14" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></polyline><circle cx="195" cy="14" r="4"></circle>
 </svg>
 </div>
 </div>
 </div>
 </div>
 <section id="pricing-intelligence" class="level3 accent project-info">
-<h3 class="accent anchored" data-anchor-id="pricing-intelligence">Pricing Intelligence</h3>
+<h3 class="accent" data-anchor-id="pricing-intelligence">Pricing Intelligence</h3>
 <p>Web-scraping pipeline comparing competitor prices with ML-driven repricing suggestions.</p>
 <div class="tech-stack">
 <p><span class="chip">Python</span> <span class="chip">scikit-learn</span> <span class="chip">BigQuery</span> <span class="chip">Looker</span></p>
 </div>
+<p><a class="project-link" href="https://github.com/maxiwilliner" aria-label="Pricing Intelligence on GitHub">GitHub <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a></p>
 </section>
 </div>
 <div class="project-card glass-panel">
@@ -324,20 +333,21 @@ ul.task-list li input[type="checkbox"] {
 <span></span><span></span><span></span>
 </div>
 <div class="mock-content">
-<div class="project-emoji">
-<svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-<path d="m7.5 4.27 9 5.15"></path><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"></path><path d="M3.3 7 12 12l8.7-5"></path><path d="M12 22V12"></path>
+<div class="mini-chart chart-forecast" aria-hidden="true">
+<svg viewbox="0 0 200 100" fill="none" aria-hidden="true">
+<path class="hist" d="M5 72 C 28 58, 45 80, 70 62 S 108 42, 128 54" stroke-width="3" stroke-linecap="round"></path><path class="proj" d="M128 54 C 148 64, 168 30, 195 38" stroke-width="3" stroke-linecap="round"></path>
 </svg>
 </div>
 </div>
 </div>
 </div>
 <section id="inventory-forecast" class="level3 accent project-info">
-<h3 class="accent anchored" data-anchor-id="inventory-forecast">Inventory Forecast</h3>
+<h3 class="accent" data-anchor-id="inventory-forecast">Inventory Forecast</h3>
 <p>Time-series forecasting (Prophet + ARIMA) for warehouse stock levels, cut overstock 23%.</p>
 <div class="tech-stack">
 <p><span class="chip">Python</span> <span class="chip">Prophet</span> <span class="chip">Power BI</span> <span class="chip">Snowflake</span></p>
 </div>
+<p><a class="project-link" href="https://github.com/maxiwilliner" aria-label="Inventory Forecast on GitHub">GitHub <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a></p>
 </section>
 </div>
 </div>
@@ -346,15 +356,22 @@ ul.task-list li input[type="checkbox"] {
 <p>live demo</p>
 </div>
 <section id="embedded-bi" class="level2 section-title fade-up">
-<h2 class="section-title fade-up anchored" data-anchor-id="embedded-bi">Embedded BI</h2>
+<h2 class="section-title fade-up" data-anchor-id="embedded-bi"><span class="serif-accent">Embedded</span> BI</h2>
 </section>
 </div>
 <p>The Power BI dashboard below is embedded directly in this Quarto page using raw HTML.</p>
+<div class="embed-wrap embed-pending">
+<div class="embed-placeholder fade-in">
+<svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+<line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line>
+</svg>
+<p><strong>Live dashboard</strong> — the published Power BI / Tableau embed renders here.</p>
+<p><a href="#contact" class="btn btn-secondary glass-btn">Request access</a></p>
+</div>
 <iframe class="embed fade-in" src="https://app.powerbi.com/view?r=YOUR_EMBED_TOKEN" title="Inventory Forecast - Power BI" loading="lazy" allowfullscreen="true">
 </iframe>
-<blockquote class="blockquote">
-<p>Replace the <code>src</code> URL with your published Tableau or Power BI embed link.</p>
-</blockquote>
+</div>
+<p><span class="embed-note">Replace the iframe <code>src</code> with your published embed URL, then remove the <code>.embed-pending</code> class.</span></p>
 </div>
 <div id="experience">
 <div class="section-header">
@@ -362,27 +379,27 @@ ul.task-list li input[type="checkbox"] {
 <p>track record</p>
 </div>
 <section id="experience" class="level2 section-title fade-up stagger-1">
-<h2 class="section-title fade-up stagger-1 anchored" data-anchor-id="experience">Experience</h2>
+<h2 class="section-title fade-up stagger-1" data-anchor-id="experience"><span class="serif-accent">Experience</span></h2>
 </section>
 </div>
 <div class="case-studies-list fade-in">
 <div class="case-study-card glass-panel">
+<p><span class="tl-dot"></span></p>
 <div class="cs-meta">
-<p><span class="cs-tag">Full-time</span> <span class="cs-tag">Reporting</span></p>
+<p><span class="cs-tag">Full-time</span> <span class="cs-tag">Reporting</span> <span class="cs-date">Jan 2023 — Present</span></p>
 </div>
 <section id="data-analyst---acme-corp" class="level3 accent cs-content">
-<h3 class="accent anchored" data-anchor-id="data-analyst---acme-corp">Data Analyst - <a href="https://example.com">Acme Corp</a></h3>
-<p>Jan 2023 - Present</p>
+<h3 class="accent" data-anchor-id="data-analyst---acme-corp">Data Analyst - <a href="https://example.com">Acme Corp</a></h3>
 <p>Designed executive KPI dashboards in Tableau for 30+ stakeholders. Automated reporting pipelines with Python + Airflow, cutting manual work ~15 hrs/week. Partnered with product on A/B analysis and retention modeling.</p>
 <div class="cs-outcomes">
 <div class="cs-stat">
-<p><span class="cs-stat-val">30+</span> <span class="cs-stat-label">stakeholders</span></p>
+<p><span class="cs-stat-val" data-count="30" data-suffix="+">30+</span> <span class="cs-stat-label">stakeholders</span></p>
 </div>
 <div class="cs-stat">
-<p><span class="cs-stat-val">15h</span> <span class="cs-stat-label">saved weekly</span></p>
+<p><span class="cs-stat-val" data-count="15" data-suffix="h">15h</span> <span class="cs-stat-label">saved weekly</span></p>
 </div>
 <div class="cs-stat">
-<p><span class="cs-stat-val">3</span> <span class="cs-stat-label">cohorts modeled</span></p>
+<p><span class="cs-stat-val" data-count="3">3</span> <span class="cs-stat-label">cohorts modeled</span></p>
 </div>
 </div>
 <div class="cs-stack">
@@ -391,22 +408,22 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </div>
 <div class="case-study-card glass-panel">
+<p><span class="tl-dot"></span></p>
 <div class="cs-meta">
-<p><span class="cs-tag">Full-time</span> <span class="cs-tag">Marketing</span></p>
+<p><span class="cs-tag">Full-time</span> <span class="cs-tag">Marketing</span> <span class="cs-date">2021 — 2022</span></p>
 </div>
 <section id="junior-data-analyst---beta-analytics" class="level3 accent cs-content">
-<h3 class="accent anchored" data-anchor-id="junior-data-analyst---beta-analytics">Junior Data Analyst - Beta Analytics</h3>
-<p>2021 - 2022</p>
+<h3 class="accent" data-anchor-id="junior-data-analyst---beta-analytics">Junior Data Analyst - Beta Analytics</h3>
 <p>Built ETL jobs in SQL (BigQuery) for marketing spend attribution. Created Looker dashboards tracking CAC, LTV, and payback period. Documented data models in dbt for the analytics engineering team.</p>
 <div class="cs-outcomes">
 <div class="cs-stat">
-<p><span class="cs-stat-val">CAC</span> <span class="cs-stat-label">attribution</span></p>
+<p><span class="cs-stat-val" data-count="15" data-suffix="+">15+</span> <span class="cs-stat-label">reports automated</span></p>
 </div>
 <div class="cs-stat">
-<p><span class="cs-stat-val">LTV</span> <span class="cs-stat-label">modeled</span></p>
+<p><span class="cs-stat-val" data-count="3">3</span> <span class="cs-stat-label">attribution models</span></p>
 </div>
 <div class="cs-stat">
-<p><span class="cs-stat-val">dbt</span> <span class="cs-stat-label">documented</span></p>
+<p><span class="cs-stat-val" data-count="100" data-suffix="%">100%</span> <span class="cs-stat-label">dbt documented</span></p>
 </div>
 </div>
 <div class="cs-stack">
@@ -416,7 +433,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <section id="education-certifications" class="level2 section-title fade-up">
-<h2 class="section-title fade-up anchored" data-anchor-id="education-certifications">Education &amp; Certifications</h2>
+<h2 class="section-title fade-up" data-anchor-id="education-certifications">Education &amp; <span class="serif-accent">Certifications</span></h2>
 <div class="cert-grid fade-in">
 <div class="cert-card glass-panel">
 <div class="cert-icon">
@@ -425,7 +442,7 @@ ul.task-list li input[type="checkbox"] {
 </svg>
 </div>
 <section id="b.sc.-in-statistics" class="level3">
-<h3 class="anchored" data-anchor-id="b.sc.-in-statistics">B.Sc. in Statistics</h3>
+<h3 data-anchor-id="b.sc.-in-statistics">B.Sc. in Statistics</h3>
 <p>University Name, 2017-2021</p>
 </section>
 </div>
@@ -436,7 +453,7 @@ ul.task-list li input[type="checkbox"] {
 </svg>
 </div>
 <section id="google-data-analytics-certificate" class="level3">
-<h3 class="anchored" data-anchor-id="google-data-analytics-certificate">Google Data Analytics Certificate</h3>
+<h3 data-anchor-id="google-data-analytics-certificate">Google Data Analytics Certificate</h3>
 <p>2022</p>
 </section>
 </div>
@@ -447,7 +464,7 @@ ul.task-list li input[type="checkbox"] {
 </svg>
 </div>
 <section id="tableau-desktop-specialist" class="level3">
-<h3 class="anchored" data-anchor-id="tableau-desktop-specialist">Tableau Desktop Specialist</h3>
+<h3 data-anchor-id="tableau-desktop-specialist">Tableau Desktop Specialist</h3>
 <p>2023</p>
 </section>
 </div>
@@ -456,13 +473,13 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div id="contact" class="site-footer">
 <div class="footer-top glass-panel fade-in">
-<section id="got-a-project" class="level2 gradient-text contact-info">
-<h2 class="gradient-text anchored" data-anchor-id="got-a-project">Got a project?</h2>
-<p><br> Let’s talk.</p>
+<section id="got-a-project" class="level2 contact-title contact-info">
+<h2 class="contact-title" data-anchor-id="got-a-project">Got a <span class="serif-accent">project?</span></h2>
+<p><span class="contact-lede">Let’s talk.</span></p>
 <p>Open to full-time Data Analyst / BI Engineer roles and freelance dashboard projects. Based in Argentina, working globally.</p>
 </section>
 <div class="btn-row">
-<p><a href="mailto:maximowilliner35@gmail.com" class="btn btn-primary glow-btn">Email me</a> <a href="https://www.linkedin.com/in/maximo-williner-12155a292/" class="btn btn-secondary glass-btn">LinkedIn</a> <a href="https://github.com/maxiwilliner" class="btn btn-secondary glass-btn">GitHub</a></p>
+<p><a href="mailto:maximowilliner35@gmail.com" class="btn btn-primary glow-btn">Email me</a> <button class="btn btn-secondary glass-btn copy-email" type="button" data-email="maximowilliner35@gmail.com">Copy email</button> <a href="https://www.linkedin.com/in/maximo-williner-12155a292/" class="btn btn-secondary glass-btn">LinkedIn</a> <a href="https://github.com/maxiwilliner" class="btn btn-secondary glass-btn">GitHub</a></p>
 </div>
 </div>
 <div class="footer-bottom">
@@ -475,13 +492,6 @@ ul.task-list li input[type="checkbox"] {
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -874,19 +884,6 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
-    <div class="nav-footer-left">
-      &nbsp;
-    </div>   
-    <div class="nav-footer-center">
-<p>Built with Quarto - (c) 2026 Maximo Williner</p>
-</div>
-    <div class="nav-footer-right">
-      &nbsp;
-    </div>
-  </div>
-</footer>
 
 
 

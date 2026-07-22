@@ -133,3 +133,106 @@
     update();
   }
 })();
+
+/* ============================================================
+   Enhancements round 2
+   - Count-up: [data-count][data-suffix] animate 0 -> target on view
+   - Spotlight: --mx/--my cursor tracking on .glass-panel (hover devices)
+   - Back to top: #back-to-top visibility + smooth scroll
+   - Copy email: .copy-email copies data-email with feedback
+   All respect prefers-reduced-motion.
+   ============================================================ */
+(function () {
+  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* ---------- Count-up ---------- */
+  var counters = document.querySelectorAll("[data-count]");
+  function finalText(el) {
+    return el.getAttribute("data-count") + (el.getAttribute("data-suffix") || "");
+  }
+  if (counters.length) {
+    if (reduce || !("IntersectionObserver" in window)) {
+      counters.forEach(function (el) { el.textContent = finalText(el); });
+    } else {
+      // start from zero before first paint, animate once when visible
+      counters.forEach(function (el) {
+        el.textContent = "0" + (el.getAttribute("data-suffix") || "");
+      });
+      var cio = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (!e.isIntersecting) return;
+          cio.unobserve(e.target);
+          var el      = e.target;
+          var target  = parseInt(el.getAttribute("data-count"), 10) || 0;
+          var suffix  = el.getAttribute("data-suffix") || "";
+          var dur     = 1100, t0 = null;
+          function tick(ts) {
+            if (!t0) t0 = ts;
+            var p     = Math.min((ts - t0) / dur, 1);
+            var eased = 1 - Math.pow(1 - p, 3);  /* easeOutCubic */
+            el.textContent = Math.round(target * eased) + suffix;
+            if (p < 1) window.requestAnimationFrame(tick);
+          }
+          window.requestAnimationFrame(tick);
+        });
+      }, { threshold: 0.6 });
+      counters.forEach(function (el) { cio.observe(el); });
+    }
+  }
+
+  /* ---------- Cursor spotlight on glass panels ---------- */
+  var canHover = window.matchMedia && window.matchMedia("(hover: hover)").matches;
+  if (canHover && !reduce) {
+    document.querySelectorAll(".glass-panel, .bento-card, .work-card").forEach(function (card) {
+      card.addEventListener("mousemove", function (ev) {
+        var r = card.getBoundingClientRect();
+        card.style.setProperty("--mx", (((ev.clientX - r.left) / r.width) * 100).toFixed(2) + "%");
+        card.style.setProperty("--my", (((ev.clientY - r.top) / r.height) * 100).toFixed(2) + "%");
+      });
+    });
+  }
+
+  /* ---------- Back to top ---------- */
+  var btt = document.getElementById("back-to-top");
+  if (btt) {
+    var SHOW_AT = 600, bTicking = false;
+    function bUpdate() {
+      btt.classList.toggle("visible", window.scrollY > SHOW_AT);
+      bTicking = false;
+    }
+    window.addEventListener("scroll", function () {
+      if (!bTicking) { window.requestAnimationFrame(bUpdate); bTicking = true; }
+    }, { passive: true });
+    bUpdate();
+    btt.addEventListener("click", function () {
+      window.scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" });
+    });
+  }
+
+  /* ---------- Copy email ---------- */
+  document.querySelectorAll(".copy-email").forEach(function (btn) {
+    var label = btn.textContent;
+    btn.addEventListener("click", function () {
+      var email = btn.getAttribute("data-email") || "";
+      function done() {
+        btn.classList.add("copied");
+        btn.textContent = "Copied ✓";
+        window.setTimeout(function () {
+          btn.classList.remove("copied");
+          btn.textContent = label;
+        }, 1600);
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(email).then(done).catch(done);
+      } else {
+        var ta = document.createElement("textarea");
+        ta.value = email;
+        document.body.appendChild(ta);
+        ta.select();
+        try { document.execCommand("copy"); } catch (e) {}
+        document.body.removeChild(ta);
+        done();
+      }
+    });
+  });
+})();
