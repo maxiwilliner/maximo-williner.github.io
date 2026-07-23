@@ -13,7 +13,7 @@ title: ""
 
 ::: {.hero-content}
 ::: {.hero-badge .fade-in-up .delay-1}
-[]{.status-dot} Based in Argentina - building data products that run
+[]{.status-dot} Based in Spain - building data products that run
 :::
 
 # Progress <span class="accent">in</span> Motion {.hero-title .fade-in-up .delay-2}
@@ -65,25 +65,23 @@ Data Analyst - BI - ETL
 
 ::: {.card-stats}
 ::: {.stat}
-[3+]{.stat-val data-count="3" data-suffix="+"}
-[Years Exp.]{.stat-label}
+[42 Madrid]{.stat-val .gradient-text}
+[Piscine & Common Core]{.stat-label}
 :::
 ::: {.stat}
-[20+]{.stat-val data-count="20" data-suffix="+"}
-[Dashboards]{.stat-label}
+[100% Code]{.stat-val .gradient-text}
+[Python · SQL · C]{.stat-label}
 :::
 :::
 
 ::: {.specialties}
-[Python]{.badge} [Tableau]{.badge} [SQL]{.badge} [Power BI]{.badge}
+[Python]{.badge} [C]{.badge} [SQL]{.badge} [Marketing]{.badge}
 :::
 
 :::
 
 ::: {.glass-panel .text-card .fade-up}
-I turn messy data into decisions - automated pipelines, elegant BI dashboards, and forecasts that hold up in production. Built for real budgets and real teams.
-
-Most of my work sits where analytics meets engineering: dbt models, Airflow dags, BI tooling, and the SQL glue in between. I've worked remote across timezones and I keep documentation honest.
+Data & Software Developer trained at 42 Madrid. I combine low-level programming rigor (C/Python, SQL) with strategic marketing knowledge to turn raw, unstructured data into high-value business pipelines. My focus sits at the intersection of analytics engineering and web tools: building scrapers, managing databases, and embedding real-time analytics into web applications.
 :::
 
 :::
@@ -190,15 +188,15 @@ selected work
 :::
 :::
 ::: {.project-info}
-### Sales Pulse {.accent}
+### Job Market Scraper & Analytics {.accent}
 
-Interactive BI dashboard tracking revenue, churn, and cohort retention across regions.
+Automated web scraper aggregating job listings across platforms into a SQL database with Streamlit analytics.
 
 ::: {.tech-stack}
-[Python]{.chip} [Tableau]{.chip} [PostgreSQL]{.chip} [dbt]{.chip}
+[Python]{.chip} [APIs]{.chip} [SQL]{.chip} [Streamlit]{.chip}
 :::
 
-<a class="project-link" href="https://github.com/maxiwilliner" aria-label="Sales Pulse on GitHub">GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></a>
+<a class="project-link" href="https://github.com/maxiwilliner" aria-label="Job Market Scraper on GitHub">GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></a>
 :::
 :::
 
@@ -212,15 +210,15 @@ Interactive BI dashboard tracking revenue, churn, and cohort retention across re
 :::
 :::
 ::: {.project-info}
-### Pricing Intelligence {.accent}
+### Unit Economics & Cohort Analyzer {.accent}
 
-Web-scraping pipeline comparing competitor prices with ML-driven repricing suggestions.
+Python toolkit for customer lifetime value, retention cohorts, and marketing channel attribution.
 
 ::: {.tech-stack}
-[Python]{.chip} [scikit-learn]{.chip} [BigQuery]{.chip} [Looker]{.chip}
+[Python]{.chip} [Pandas]{.chip} [SQL]{.chip} [Marketing]{.chip}
 :::
 
-<a class="project-link" href="https://github.com/maxiwilliner" aria-label="Pricing Intelligence on GitHub">GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></a>
+<a class="project-link" href="https://github.com/maxiwilliner" aria-label="Unit Economics Analyzer on GitHub">GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></a>
 :::
 :::
 
@@ -234,48 +232,19 @@ Web-scraping pipeline comparing competitor prices with ML-driven repricing sugge
 :::
 :::
 ::: {.project-info}
-### Inventory Forecast {.accent}
+### Algorithms & System Tooling {.accent}
 
-Time-series forecasting (Prophet + ARIMA) for warehouse stock levels, cut overstock 23%.
+Low-level algorithms and Unix system utilities built in C — memory allocators, data structures, shell tools.
 
 ::: {.tech-stack}
-[Python]{.chip} [Prophet]{.chip} [Power BI]{.chip} [Snowflake]{.chip}
+[C]{.chip} [Algorithms]{.chip} [Unix]{.chip} [Git]{.chip}
 :::
 
-<a class="project-link" href="https://github.com/maxiwilliner" aria-label="Inventory Forecast on GitHub">GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></a>
+<a class="project-link" href="https://github.com/maxiwilliner" aria-label="Algorithms & System Tooling on GitHub">GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></a>
 :::
 :::
 
 :::
-
-::: {.section-header}
-::: {.section-badge .fade-up}
-live demo
-:::
-
-## <span class="serif-accent">Embedded</span> BI {.section-title .fade-up}
-:::
-
-The Power BI dashboard below is embedded directly in this Quarto page using raw HTML.
-
-::: {.embed-wrap .embed-pending}
-::: {.embed-placeholder .fade-in}
-<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
-
-**Live dashboard** — the published Power BI / Tableau embed renders here.
-
-[Request access](#contact){.btn .btn-secondary .glass-btn}
-:::
-
-<iframe class="embed fade-in"
-  src="https://app.powerbi.com/view?r=YOUR_EMBED_TOKEN"
-  title="Inventory Forecast - Power BI"
-  loading="lazy"
-  allowfullscreen="true">
-</iframe>
-:::
-
-[Replace the iframe `src` with your published embed URL, then remove the `.embed-pending` class.]{.embed-note}
 
 :::
 
@@ -368,19 +337,11 @@ Built ETL jobs in SQL (BigQuery) for marketing spend attribution. Created Looker
 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c0 1 2.5 2 6 2s6-1 6-2v-5"/></svg>
 :::
 
-### B.Sc. in Statistics
+### 42 Madrid
 
-University Name, 2017-2021
-:::
+**Software Engineering & Data Fundamentals**
 
-::: {.cert-card .glass-panel}
-::: {.cert-icon}
-<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
-:::
-
-### Google Data Analytics Certificate
-
-2022
+Peer-to-peer methodology, algorithms, memory management, and Unix environment.
 :::
 
 ::: {.cert-card .glass-panel}
@@ -388,9 +349,11 @@ University Name, 2017-2021
 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
 :::
 
-### Tableau Desktop Specialist
+### Vocational Education (GS)
 
-2023
+**Marketing & Commercial Management**
+
+Market research, consumer metrics, and funnels. (TFG pending).
 :::
 
 :::
