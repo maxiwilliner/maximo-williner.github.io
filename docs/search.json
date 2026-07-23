@@ -11,14 +11,14 @@
     "href": "index.html#maximo-williner",
     "title": "Progress in Motion",
     "section": "Maximo Williner",
-    "text": "Maximo Williner\n\nData Analyst - BI - ETL\n\n\n\n42 Madrid Piscine & Common Core\n\n\n100% Code Python · SQL · C\n\n\n\nPython C SQL Marketing"
+    "text": "Maximo Williner\n\nSoftware Developer · Data Analyst\n\n\n\n42 Madrid Piscine ✓ · Core\n\n\n100% Code C · Python · SQL\n\n\n\nC Python SQL Marketing"
   },
   {
     "objectID": "index.html#what-i-work-with",
     "href": "index.html#what-i-work-with",
     "title": "Progress in Motion",
     "section": "What I Work With",
-    "text": "What I Work With\n\n\nLanguages\n\nPython SQL PostgreSQL BigQuery Snowflake R\n\n\n\nVisualization / BI\n\nTableau Power BI Looker Metabase Plotly Seaborn\n\n\n\nInfrastructure / ETL\n\nAirflow dbt Spark DuckDB Docker GCP\n\n\n\nMethods\n\nCohort analysis Forecasting A/B testing Attribution Data modeling"
+    "text": "What I Work With\n\n\nCore · 42 Madrid\n\nC Shell Unix Git Algorithms Make\n\n\n\nData & Analytics\n\nPython SQL Pandas PostgreSQL Streamlit DuckDB\n\n\n\nVisualization & BI\n\nTableau Power BI Plotly Seaborn Looker\n\n\n\nMarketing & Methods\n\nMarket research Funnels Cohort analysis A/B testing Attribution Forecasting"
   },
   {
     "objectID": "index.html#projects",
@@ -28,24 +28,17 @@
     "text": "Projects"
   },
   {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
+    "objectID": "index.html#the-journey",
+    "href": "index.html#the-journey",
     "title": "Progress in Motion",
-    "section": "Experience",
-    "text": "Experience"
-  },
-  {
-    "objectID": "index.html#education-certifications",
-    "href": "index.html#education-certifications",
-    "title": "Progress in Motion",
-    "section": "Education & Certifications",
-    "text": "Education & Certifications\n\n\n\n\n\n\n\n\n42 Madrid\nSoftware Engineering & Data Fundamentals\nPeer-to-peer methodology, algorithms, memory management, and Unix environment.\n\n\n\n\n\n\n\n\n\nVocational Education (GS)\nMarketing & Commercial Management\nMarket research, consumer metrics, and funnels. (TFG pending)."
+    "section": "The Journey",
+    "text": "The Journey"
   },
   {
     "objectID": "index.html#got-a-project",
     "href": "index.html#got-a-project",
     "title": "Progress in Motion",
     "section": "Got a project?",
-    "text": "Got a project?\nLet’s talk.\nOpen to full-time Data Analyst / BI Engineer roles and freelance dashboard projects. Based in Argentina, working globally."
+    "text": "Got a project?\nLet’s talk.\nOpen to junior Software Developer / Data Analyst roles and freelance data projects. Based in Spain, working globally."
   }
 ]

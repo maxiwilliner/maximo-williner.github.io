@@ -12,18 +12,47 @@ title: ""
 :::
 
 ::: {.hero-content}
+
+::: {.hero-copy}
 ::: {.hero-badge .fade-in-up .delay-1}
-[]{.status-dot} Based in Spain - building data products that run
+[]{.status-dot} Based in Spain — building data products that run
 :::
 
 # Progress <span class="accent">in</span> Motion {.hero-title .fade-in-up .delay-2}
 
-[Data Analyst · BI · ETL — turning raw data into pipelines, dashboards, and forecasts that ship.]{.hero-subtitle .fade-in-up .delay-3}
+[Software Developer & Data Analyst — trained at **42 Madrid**. I turn raw data into pipelines, dashboards, and forecasts that ship.]{.hero-subtitle .fade-in-up .delay-3}
 
 ::: {.hero-actions .fade-in-up .delay-4}
 [See my work](#work){.btn .btn-primary .glow-btn}
 [Let's talk](#contact){.btn .btn-secondary .glass-btn}
 :::
+:::
+
+<div class="terminal fade-in-up delay-4" id="terminal" aria-label="Interactive terminal — try the command 'help'">
+<div class="term-titlebar">
+<span class="term-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+<span class="term-title">maximo@42madrid: ~/portfolio</span>
+<span class="term-shell">zsh</span>
+</div>
+<div class="term-body" id="term-body">
+<div class="term-output" id="term-output" aria-live="polite"></div>
+<div class="term-line">
+<span class="term-prompt" aria-hidden="true"><span class="tp-user">maximo@42</span><span class="tp-sep">:</span><span class="tp-path">~/portfolio</span>&nbsp;<span class="tp-char">%</span></span>
+<span class="term-field">
+<span class="term-mirror" aria-hidden="true"><span id="term-typed"></span><span class="term-cursor" id="term-cursor"></span><span class="term-ghost" id="term-ghost"></span></span>
+<input type="text" id="term-input" class="term-input" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false" enterkeyhint="go" aria-label="Terminal input. Type help and press Enter.">
+</span>
+</div>
+</div>
+<div class="term-hints" id="term-hints">
+<span class="term-hints-label">try:</span>
+<button type="button" class="term-hint" data-cmd="help">help</button>
+<button type="button" class="term-hint" data-cmd="skills">skills</button>
+<button type="button" class="term-hint" data-cmd="42madrid">42madrid</button>
+<button type="button" class="term-hint" data-cmd="projects">projects</button>
+</div>
+</div>
+
 :::
 
 <a href="#about" class="scroll-cue" aria-label="Scroll to about section"><span>scroll</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg></a>
@@ -32,8 +61,8 @@ title: ""
 
 ::: {.marquee aria-hidden="true"}
 ::: {.marquee-track}
-[Python ✦ SQL ✦ Tableau ✦ Power BI ✦ dbt ✦ Airflow ✦ BigQuery ✦ Snowflake ✦ Docker ✦ GCP ✦ Looker ✦ Spark]{.marquee-chunk}
-[Python ✦ SQL ✦ Tableau ✦ Power BI ✦ dbt ✦ Airflow ✦ BigQuery ✦ Snowflake ✦ Docker ✦ GCP ✦ Looker ✦ Spark]{.marquee-chunk}
+[C ✦ Python ✦ SQL ✦ Shell ✦ Git ✦ Pandas ✦ Streamlit ✦ Tableau ✦ Power BI ✦ Docker ✦ Plotly ✦ 42 Madrid]{.marquee-chunk}
+[C ✦ Python ✦ SQL ✦ Shell ✦ Git ✦ Pandas ✦ Streamlit ✦ Tableau ✦ Power BI ✦ Docker ✦ Plotly ✦ 42 Madrid]{.marquee-chunk}
 :::
 :::
 
@@ -60,28 +89,30 @@ MW
 ## Maximo Williner {.profile-name}
 
 ::: {.title-badge}
-Data Analyst - BI - ETL
+Software Developer · Data Analyst
 :::
 
 ::: {.card-stats}
 ::: {.stat}
 [42 Madrid]{.stat-val .gradient-text}
-[Piscine & Common Core]{.stat-label}
+[Piscine ✓ · Core]{.stat-label}
 :::
 ::: {.stat}
 [100% Code]{.stat-val .gradient-text}
-[Python · SQL · C]{.stat-label}
+[C · Python · SQL]{.stat-label}
 :::
 :::
 
 ::: {.specialties}
-[Python]{.badge} [C]{.badge} [SQL]{.badge} [Marketing]{.badge}
+[C]{.badge} [Python]{.badge} [SQL]{.badge} [Marketing]{.badge}
 :::
 
 :::
 
 ::: {.glass-panel .text-card .fade-up}
-Data & Software Developer trained at 42 Madrid. I combine low-level programming rigor (C/Python, SQL) with strategic marketing knowledge to turn raw, unstructured data into high-value business pipelines. My focus sits at the intersection of analytics engineering and web tools: building scrapers, managing databases, and embedding real-time analytics into web applications.
+Software Developer & Data Analyst trained at **42 Madrid**. I combine low-level programming rigor — C, shell, Unix — with a marketing brain: funnels, KPIs, and consumer metrics. The result: raw, messy data turned into scrapers, pipelines, and dashboards that answer real business questions.
+
+Peer-to-peer pedagogy taught me to read docs, debug in public, and ship code that survives review. Marketing taught me which questions are worth answering.
 :::
 
 :::
@@ -93,12 +124,12 @@ Data & Software Developer trained at 42 Madrid. I combine low-level programming 
 
 ::: {.stat-box}
 ::: {.neon-icon}
-<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
 :::
 
-[Python + SQL]{.stat-val .gradient-text}
+[C · Python · SQL]{.stat-val .gradient-text}
 
-[Core stack]{.stat-label}
+[Core stack — 42 Madrid]{.stat-label}
 :::
 
 ::: {.stat-box}
@@ -106,7 +137,7 @@ Data & Software Developer trained at 42 Madrid. I combine low-level programming 
 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
 :::
 
-[Tableau / Power BI]{.stat-val .gradient-text}
+[Tableau · Power BI]{.stat-val .gradient-text}
 
 [BI delivery]{.stat-label}
 :::
@@ -116,9 +147,9 @@ Data & Software Developer trained at 42 Madrid. I combine low-level programming 
 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
 :::
 
-[Airflow + dbt]{.stat-val .gradient-text}
+[Pipelines · ETL]{.stat-val .gradient-text}
 
-[ETL automation]{.stat-label}
+[Automation mindset]{.stat-label}
 :::
 
 :::
@@ -130,35 +161,35 @@ Data & Software Developer trained at 42 Madrid. I combine low-level programming 
 
 ::: {.skills-container}
 
-::: {.skill-category .glass-panel .fade-in}
-### Languages
+::: {.skill-category .fade-up}
+### Core · 42 Madrid {.skill-label}
 
 ::: {.skill-chips}
-[Python]{.chip} [SQL]{.chip} [PostgreSQL]{.chip} [BigQuery]{.chip} [Snowflake]{.chip} [R]{.chip}
+[C]{.chip} [Shell]{.chip} [Unix]{.chip} [Git]{.chip} [Algorithms]{.chip} [Make]{.chip}
 :::
 :::
 
-::: {.skill-category .glass-panel .fade-in}
-### Visualization / BI
-
-::: {.skill-chips}
-[Tableau]{.chip} [Power BI]{.chip} [Looker]{.chip} [Metabase]{.chip} [Plotly]{.chip} [Seaborn]{.chip}
-:::
-:::
-
-::: {.skill-category .glass-panel .fade-in}
-### Infrastructure / ETL
+::: {.skill-category .fade-up}
+### Data & Analytics {.skill-label}
 
 ::: {.skill-chips}
-[Airflow]{.chip} [dbt]{.chip} [Spark]{.chip} [DuckDB]{.chip} [Docker]{.chip} [GCP]{.chip}
+[Python]{.chip} [SQL]{.chip} [Pandas]{.chip} [PostgreSQL]{.chip} [Streamlit]{.chip} [DuckDB]{.chip}
 :::
 :::
 
-::: {.skill-category .glass-panel .fade-in}
-### Methods
+::: {.skill-category .fade-up}
+### Visualization & BI {.skill-label}
 
 ::: {.skill-chips}
-[Cohort analysis]{.chip} [Forecasting]{.chip} [A/B testing]{.chip} [Attribution]{.chip} [Data modeling]{.chip}
+[Tableau]{.chip} [Power BI]{.chip} [Plotly]{.chip} [Seaborn]{.chip} [Looker]{.chip}
+:::
+:::
+
+::: {.skill-category .fade-up}
+### Marketing & Methods {.skill-label}
+
+::: {.skill-chips}
+[Market research]{.chip} [Funnels]{.chip} [Cohort analysis]{.chip} [A/B testing]{.chip} [Attribution]{.chip} [Forecasting]{.chip}
 :::
 :::
 
@@ -175,6 +206,50 @@ selected work
 
 ## <span class="serif-accent">Projects</span> {.section-title .fade-up .stagger-1}
 :::
+
+<div class="pipeline-card glass-panel fade-up" id="pipeline-card">
+<div class="pipeline-head">
+<div class="pipeline-head-text">
+<h3 class="pipeline-title">From raw to <span class="serif-accent">revenue</span></h3>
+<p class="pipeline-sub">Click a stage to inspect its live output — or run the whole flow.</p>
+</div>
+<button class="pipeline-run" id="pipeline-run" type="button">
+<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="6 3 20 12 6 21 6 3"/></svg>
+<span>Run pipeline</span>
+</button>
+</div>
+
+<div class="pipeline" id="pipeline" role="group" aria-label="Data pipeline stages">
+<button class="pipe-node" data-step="extract" type="button" aria-pressed="false">
+<span class="pipe-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg></span>
+<span class="pipe-text"><span class="pipe-label">Extract</span><span class="pipe-sub">scrapers · APIs</span></span>
+</button>
+<span class="pipe-link" aria-hidden="true"></span>
+<button class="pipe-node" data-step="transform" type="button" aria-pressed="false">
+<span class="pipe-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg></span>
+<span class="pipe-text"><span class="pipe-label">Transform</span><span class="pipe-sub">pandas · dbt</span></span>
+</button>
+<span class="pipe-link" aria-hidden="true"></span>
+<button class="pipe-node" data-step="load" type="button" aria-pressed="false">
+<span class="pipe-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg></span>
+<span class="pipe-text"><span class="pipe-label">Load</span><span class="pipe-sub">SQL · warehouse</span></span>
+</button>
+<span class="pipe-link" aria-hidden="true"></span>
+<button class="pipe-node" data-step="visualize" type="button" aria-pressed="false">
+<span class="pipe-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></span>
+<span class="pipe-text"><span class="pipe-label">Visualize</span><span class="pipe-sub">BI · dashboards</span></span>
+</button>
+</div>
+
+<div class="pipe-console">
+<div class="pipe-console-bar">
+<span class="pc-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+<span class="pc-file" id="pipe-file">extract_jobs.py</span>
+<span class="pc-status" id="pipe-status">idle</span>
+</div>
+<pre class="pipe-output" aria-live="polite"><code id="pipe-code"></code></pre>
+</div>
+</div>
 
 ::: {.projects-grid .fade-in}
 
@@ -193,7 +268,7 @@ selected work
 Automated web scraper aggregating job listings across platforms into a SQL database with Streamlit analytics.
 
 ::: {.tech-stack}
-[Python]{.chip} [APIs]{.chip} [SQL]{.chip} [Streamlit]{.chip}
+[Python]{.chip} [Scraping]{.chip} [SQL]{.chip} [Streamlit]{.chip}
 :::
 
 <a class="project-link" href="https://github.com/maxiwilliner" aria-label="Job Market Scraper on GitHub">GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></a>
@@ -215,7 +290,7 @@ Automated web scraper aggregating job listings across platforms into a SQL datab
 Python toolkit for customer lifetime value, retention cohorts, and marketing channel attribution.
 
 ::: {.tech-stack}
-[Python]{.chip} [Pandas]{.chip} [SQL]{.chip} [Marketing]{.chip}
+[Python]{.chip} [Pandas]{.chip} [Cohorts]{.chip} [Marketing]{.chip}
 :::
 
 <a class="project-link" href="https://github.com/maxiwilliner" aria-label="Unit Economics Analyzer on GitHub">GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></a>
@@ -234,10 +309,10 @@ Python toolkit for customer lifetime value, retention cohorts, and marketing cha
 ::: {.project-info}
 ### Algorithms & System Tooling {.accent}
 
-Low-level algorithms and Unix system utilities built in C — memory allocators, data structures, shell tools.
+Low-level algorithms and Unix system utilities built in C at 42 Madrid — memory allocators, data structures, shell tools.
 
 ::: {.tech-stack}
-[C]{.chip} [Algorithms]{.chip} [Unix]{.chip} [Git]{.chip}
+[C]{.chip} [Unix]{.chip} [Algorithms]{.chip} [42 Madrid]{.chip}
 :::
 
 <a class="project-link" href="https://github.com/maxiwilliner" aria-label="Algorithms & System Tooling on GitHub">GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></a>
@@ -255,7 +330,7 @@ Low-level algorithms and Unix system utilities built in C — memory allocators,
 track record
 :::
 
-## <span class="serif-accent">Experience</span> {.section-title .fade-up .stagger-1}
+## The <span class="serif-accent">Journey</span> {.section-title .fade-up .stagger-1}
 :::
 
 ::: {.case-studies-list .fade-in}
@@ -264,31 +339,31 @@ track record
 []{.tl-dot}
 
 ::: {.cs-meta}
-[Full-time]{.cs-tag} [Reporting]{.cs-tag} [Jan 2023 — Present]{.cs-date}
+[42 Madrid]{.cs-tag} [Common Core]{.cs-tag} [Ongoing]{.cs-date}
 :::
 
 ::: {.cs-content}
-### Data Analyst - [Acme Corp](https://example.com) {.accent}
+### Software Developer — 42 Madrid {.accent}
 
-Designed executive KPI dashboards in Tableau for 30+ stakeholders. Automated reporting pipelines with Python + Airflow, cutting manual work ~15 hrs/week. Partnered with product on A/B analysis and retention modeling.
+Intensive peer-to-peer software engineering program. Building the Common Core from scratch in C: reimplementing libc (`libft`), `ft_printf`, memory-safe data structures and Unix tooling. No frameworks, no shortcuts — every function defended in peer code reviews.
 
 ::: {.cs-outcomes}
 ::: {.cs-stat}
-[30+]{.cs-stat-val data-count="30" data-suffix="+"}
-[stakeholders]{.cs-stat-label}
+[100%]{.cs-stat-val}
+[code-based]{.cs-stat-label}
 :::
 ::: {.cs-stat}
-[15h]{.cs-stat-val data-count="15" data-suffix="h"}
-[saved weekly]{.cs-stat-label}
+[C · Unix · Git]{.cs-stat-val .cs-stat-text}
+[daily drivers]{.cs-stat-label}
 :::
 ::: {.cs-stat}
-[3]{.cs-stat-val data-count="3"}
-[cohorts modeled]{.cs-stat-label}
+[P2P]{.cs-stat-val}
+[reviewed code]{.cs-stat-label}
 :::
 :::
 
 ::: {.cs-stack}
-[Tableau]{.chip} [Python]{.chip} [Airflow]{.chip} [dbt]{.chip}
+[C]{.chip} [Unix]{.chip} [Shell]{.chip} [Git]{.chip} [Algorithms]{.chip}
 :::
 :::
 :::
@@ -297,63 +372,66 @@ Designed executive KPI dashboards in Tableau for 30+ stakeholders. Automated rep
 []{.tl-dot}
 
 ::: {.cs-meta}
-[Full-time]{.cs-tag} [Marketing]{.cs-tag} [2021 — 2022]{.cs-date}
+[42 Madrid]{.cs-tag} [Selection Bootcamp]{.cs-tag} [Piscine — passed]{.cs-date}
 :::
 
 ::: {.cs-content}
-### Junior Data Analyst - Beta Analytics {.accent}
+### Piscine — 42 Madrid {.accent}
 
-Built ETL jobs in SQL (BigQuery) for marketing spend attribution. Created Looker dashboards tracking CAC, LTV, and payback period. Documented data models in dbt for the analytics engineering team.
+26 days of total immersion in C and shell: daily rush projects, weekly exams, and collaborative debugging with strangers. Survived the Piscine and earned a seat in the Common Core.
 
 ::: {.cs-outcomes}
 ::: {.cs-stat}
-[15+]{.cs-stat-val data-count="15" data-suffix="+"}
-[reports automated]{.cs-stat-label}
+[26]{.cs-stat-val data-count="26"}
+[days immersed]{.cs-stat-label}
 :::
 ::: {.cs-stat}
-[3]{.cs-stat-val data-count="3"}
-[attribution models]{.cs-stat-label}
+[100%]{.cs-stat-val}
+[C & shell]{.cs-stat-label}
 :::
 ::: {.cs-stat}
-[100%]{.cs-stat-val data-count="100" data-suffix="%"}
-[dbt documented]{.cs-stat-label}
+[✓]{.cs-stat-val}
+[seat earned]{.cs-stat-label}
 :::
 :::
 
 ::: {.cs-stack}
-[BigQuery]{.chip} [Looker]{.chip} [SQL]{.chip} [dbt]{.chip}
+[C]{.chip} [Bash]{.chip} [Vim]{.chip} [Git]{.chip}
 :::
 :::
 :::
 
+::: {.case-study-card .glass-panel}
+[]{.tl-dot}
+
+::: {.cs-meta}
+[Marketing]{.cs-tag} [GS Vocational]{.cs-tag} [TFG pending]{.cs-date}
 :::
 
-## Education & <span class="serif-accent">Certifications</span> {.section-title .fade-up}
+::: {.cs-content}
+### Marketing & Commercial Management {.accent}
 
-::: {.cert-grid .fade-in}
+Higher vocational degree (GS) — the business lens behind the data work. Market research, consumer metrics, and funnels: where I learned which questions are worth answering with data.
 
-::: {.cert-card .glass-panel}
-::: {.cert-icon}
-<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c0 1 2.5 2 6 2s6-1 6-2v-5"/></svg>
+::: {.cs-outcomes}
+::: {.cs-stat}
+[Funnels]{.cs-stat-val .cs-stat-text}
+[& KPIs]{.cs-stat-label}
+:::
+::: {.cs-stat}
+[Market]{.cs-stat-val .cs-stat-text}
+[research]{.cs-stat-label}
+:::
+::: {.cs-stat}
+[Consumer]{.cs-stat-val .cs-stat-text}
+[metrics]{.cs-stat-label}
+:::
 :::
 
-### 42 Madrid
-
-**Software Engineering & Data Fundamentals**
-
-Peer-to-peer methodology, algorithms, memory management, and Unix environment.
+::: {.cs-stack}
+[Market research]{.chip} [Funnels]{.chip} [A/B testing]{.chip} [Attribution]{.chip}
 :::
-
-::: {.cert-card .glass-panel}
-::: {.cert-icon}
-<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
 :::
-
-### Vocational Education (GS)
-
-**Marketing & Commercial Management**
-
-Market research, consumer metrics, and funnels. (TFG pending).
 :::
 
 :::
@@ -370,7 +448,7 @@ Market research, consumer metrics, and funnels. (TFG pending).
 
 [Let's talk.]{.contact-lede}
 
-Open to full-time Data Analyst / BI Engineer roles and freelance dashboard projects. Based in Argentina, working globally.
+Open to junior Software Developer / Data Analyst roles and freelance data projects. Based in Spain, working globally.
 
 :::
 
@@ -385,7 +463,7 @@ Open to full-time Data Analyst / BI Engineer roles and freelance dashboard proje
 
 ::: {.footer-bottom}
 [Maximo Williner]{.brand}
-[Built with Quarto - (c) 2026]{.copyright}
+[Built with Quarto — (c) 2026]{.copyright}
 :::
 
 :::
