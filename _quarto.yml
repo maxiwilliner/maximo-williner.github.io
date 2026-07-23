@@ -4,6 +4,7 @@ project:
   resources:
     - reveal.js
     - favicon.svg
+    - .nojekyll
   preview:
     port: 4200
 
