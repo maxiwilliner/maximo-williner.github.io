@@ -4,6 +4,7 @@ _site/
 Thumbs.db
 .opencode/
 opencode.jsonc
+screenshots/
 
 /.quarto/
 **/*.quarto_ipynb
